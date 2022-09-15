@@ -19,7 +19,6 @@
  */
 
 import java.util.*;
-import java.lang.Math;
 
 public class BlackjackGameSimulator
 {
@@ -216,6 +215,7 @@ public class BlackjackGameSimulator
          }
       }
       while (playGame == 1);
+      input.close();
    }//end main()
    
    /**

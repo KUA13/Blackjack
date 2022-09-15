@@ -37,7 +37,6 @@ public class Deck
    {
       int i;
       int j;
-      int k = 0;
       for (i = 0; i < suits.length; i++)
       {
          for (j = 0; j < cardNames.length; j++)
@@ -46,7 +45,6 @@ public class Deck
             String cardName = cardNames[j];
             int cardValue = cardValues[j];
             this.cards.add(new Card(suit, cardName, cardValue));
-            k++;
          }
       }
    }
